@@ -3,20 +3,20 @@
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
+        font: size 1rem;;
+        line-height: 1.1875rem;
         color: #464646;
-        margin-left: 32px;
+        margin-left: 2rem;
     }
 
     .menu__list__item--activo {
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
+        font-size: 1rem;
+        line-height: 1.1875rem;
         color: #464646;
-        margin-left: 32px;
+        margin-left: 2rem;
     }
     
 }

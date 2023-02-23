@@ -1,0 +1,33 @@
+.skills__box {
+    width: 156px;
+    height: 118px;
+    margin-top: 2rem;
+    background-color: #FFFFFF;
+    align-items: flex-end;
+    display: flex;
+    
+}
+
+@media screen and (min-width:768px) {
+    .skills__box {
+        width: 224px;
+        height: 118px;
+        margin-top: 2rem;
+        background-color: #FFFFFF;
+        align-items: flex-end;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .skills__box {
+        width: 176px;
+        height: 174px;
+        margin-top: 2rem;
+        background-color: #FFFFFF;
+        align-items: flex-end;
+        display: flex;
+
+    }
+    
+}

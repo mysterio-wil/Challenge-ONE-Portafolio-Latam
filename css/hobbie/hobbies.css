@@ -1,0 +1,18 @@
+.hobbies {
+    padding: 1rem;
+    background: #E5E5E5;
+}
+
+@media screen and (min-width:768px) {
+    .hobbies {
+        padding: 2rem;
+        background: #E5E5E5;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .hobbies {
+        padding: 2rem 9.5rem 5.5rem 9.5rem;
+    }
+}
