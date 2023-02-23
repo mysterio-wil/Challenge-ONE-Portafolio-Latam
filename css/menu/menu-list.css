@@ -1,0 +1,13 @@
+.menu__list {
+    display: none;
+}
+
+@media screen and (min-width:1440px) {
+    .menu__list {
+        display: block;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+}

@@ -1,0 +1,40 @@
+.title__bio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media screen and (min-width:768px) {
+    .title__bio {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #464646;
+        padding: 8px 0 0 0;
+
+    }
+    
+}
+
+@media screen and (min-width:1440px) {
+    .title__bio {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 61px;
+        color: #464646;
+        padding-top: 61px;
+
+
+    }
+    
+}
+

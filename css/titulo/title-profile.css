@@ -1,0 +1,27 @@
+.title__profile {
+    width: 98px;
+    height: 98px;
+    padding: 1rem;
+    /* background: url(.jpg); */
+}
+
+@media screen and (min-width:768px) {
+    .title__profile {
+        width: 146px;
+        height: 146px;
+        float: right;
+        padding: 0 0 0 32px;
+    }
+    
+}
+
+@media screen and (min-width:1440px) {
+    .title__profile {
+        width: 368px;
+        height: 368px;
+        float: right;
+        padding: 0 0 0 17px;
+    }
+    
+}
+

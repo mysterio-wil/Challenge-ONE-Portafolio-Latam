@@ -1,0 +1,22 @@
+@media screen and (min-width: 1440px) {
+    .menu__list__item {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+        margin-left: 32px;
+    }
+
+    .menu__list__item--activo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+        margin-left: 32px;
+    }
+    
+}

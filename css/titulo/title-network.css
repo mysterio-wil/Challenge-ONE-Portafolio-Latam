@@ -1,0 +1,15 @@
+.title__network {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 16px 16px 16px;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:768px) {
+    .title__network {
+        padding: 0 0 8px 0;
+        justify-content: flex-start;
+        
+    }
+}
