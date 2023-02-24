@@ -1,0 +1,21 @@
+.experience__button--repo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    padding: 12px 16px;
+}
+
+@media screen and (min-width:1440px) {
+    .experience__button--repo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2A7AE4;
+    }
+}

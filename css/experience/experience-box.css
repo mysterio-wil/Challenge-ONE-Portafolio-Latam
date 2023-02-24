@@ -1,0 +1,11 @@
+.experience__box {
+    margin-top: 64px;
+}
+
+@media screen and (min-width:1440px) {
+    .experience__box {
+        align-items: center;
+        
+        
+    }
+}

@@ -1,0 +1,26 @@
+.experience__button--demo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
+    padding: 12px 16px;
+    background: #2A7AE4;
+    border: none;
+}
+
+@media screen and (min-width:1440px) {
+    .experience__button--demo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+    
+}

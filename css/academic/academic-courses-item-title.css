@@ -1,0 +1,21 @@
+.academic__courses__item__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #464646;
+    margin-top: 0.5rem;
+}
+
+@media screen and (min-width:1440px) {
+    .academic__courses__item__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+        color: #464646;
+    }
+    
+}

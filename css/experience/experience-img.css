@@ -1,0 +1,23 @@
+.experience__img {
+    width: 100%;
+    /* margin-top: 64px; */
+}
+
+@media screen and (min-width:1440px) {
+    .experience__img {
+        width: 752px;
+        height: 406px;
+    }
+
+    .experience__img--imagen1 {
+        float: left;
+        padding-right: 1rem;
+    }
+
+    .experience__img--imagen2 {
+        float: right;
+        padding-left: 1rem;
+    }
+
+    
+}

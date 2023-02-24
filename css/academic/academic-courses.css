@@ -1,0 +1,25 @@
+.academic__courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .academic__courses {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }    
+}
+
+@media screen and (min-width:1440px) {
+    .academic__courses {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 4.375rem 0 4.375rem;
+    }    
+}
+
