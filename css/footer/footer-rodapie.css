@@ -1,0 +1,12 @@
+.footer__rodapie {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+}

@@ -1,0 +1,12 @@
+.formcontact__img {
+    display: none;
+}
+
+@media screen and (min-width:1440px) {
+    .formcontact__img {
+        display: block;
+        float: left;
+        padding-right: 1rem;
+    }
+    
+}
