@@ -33,6 +33,14 @@
     
 }
 
+@media screen and (min-width:1024px) {
+    .academic__courses__item__img {
+        width: 100%;
+        height: 118px;
+    }
+    
+}
+
 @media screen and (min-width:1440px) {
     .academic__courses__item__img {
         width: 368px;

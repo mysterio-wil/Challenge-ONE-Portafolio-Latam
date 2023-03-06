@@ -20,6 +20,19 @@
     }
 }
 
+@media screen and (min-width:1024px) {
+    .about__paragraph {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        color: #464646;
+        padding: 0.5rem 0 0.5rem 0;
+    }
+}
+
+
 @media screen and (min-width:1440px) {
     .about__paragraph {
         font-family: 'Raleway';

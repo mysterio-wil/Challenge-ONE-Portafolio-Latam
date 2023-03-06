@@ -1,8 +1,14 @@
 .title__profile {
     width: 98px;
     height: 98px;
-    padding: 1rem;
-    /* background: url(.jpg); */
+    margin: 1rem;
+    border-radius: 100%;
+    /* border: 2px solid #464646;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%; */
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 40%)
 }
 
 @media screen and (min-width:768px) {
@@ -10,7 +16,17 @@
         width: 146px;
         height: 146px;
         float: right;
-        padding: 0 0 0 32px;
+        margin: 0 0 0 32px;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .title__profile {
+        width: 312px;
+        height: 312px;
+        float: right;
+        margin: 0 0 0 17px;
     }
     
 }
@@ -20,7 +36,7 @@
         width: 368px;
         height: 368px;
         float: right;
-        padding: 0 0 0 17px;
+        margin: 0 0 0 17px;
     }
     
 }

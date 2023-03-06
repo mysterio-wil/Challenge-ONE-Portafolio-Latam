@@ -21,6 +21,20 @@
     
 }
 
+@media screen and (min-width:1024px) {
+    .about__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.375rem;
+        color: #464646;
+        padding-bottom: 0.5rem;
+        /* padding-top: 4rem; */
+    }
+    
+}
+
 @media screen and (min-width:1440px) {
     .about__title {
         font-family: 'Raleway';
@@ -30,6 +44,7 @@
         line-height: 2.375rem;
         color: #464646;
         padding-bottom: 0.5rem;
+        /* padding-top: 4rem; */
     }
     
 }

@@ -1,5 +1,11 @@
 .experience__img {
     width: 100%;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
 @media screen and (min-width:1440px) {
@@ -10,13 +16,25 @@
 
     .experience__img--imagen1 {
         float: left;
-        padding-right: 1rem;
-    }
+        margin-right: 1rem;
+        box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
 
     .experience__img--imagen2 {
         float: right;
-        padding-left: 1rem;
-    }
+        margin-left: 1rem;
+        box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
 
     
 }

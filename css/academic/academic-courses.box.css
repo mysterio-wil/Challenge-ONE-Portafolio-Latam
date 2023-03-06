@@ -1,3 +1,17 @@
 .academic__courses__box {
     margin-top: 1rem;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+    .academic__courses__box {
+        width:100%;
+        margin: 0 1% 0 1%;
+    }
+    
 }

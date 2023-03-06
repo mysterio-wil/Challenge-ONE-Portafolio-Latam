@@ -23,6 +23,21 @@
     
 }
 
+
+@media screen and (min-width:1024px) {
+    .title__bio {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.375rem;
+        color: #464646;
+        padding-top: 3rem;
+
+
+    }
+    
+}
 @media screen and (min-width:1440px) {
     .title__bio {
         font-family: 'Raleway';

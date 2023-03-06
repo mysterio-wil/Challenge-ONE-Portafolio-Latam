@@ -10,9 +10,15 @@
     }
 }
 
+@media screen and (min-width:1024px) {
+    .academic {
+        padding: 6rem 4rem;
+        background: #EAF2FD;
+    }
+}
 @media screen and (min-width:1440px) {
     .academic {
-        padding: 5.125rem;
+        padding: 6rem 5.125rem;
         background: #EAF2FD;
     }
 }

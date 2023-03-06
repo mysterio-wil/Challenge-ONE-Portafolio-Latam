@@ -3,4 +3,17 @@
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: bold;
+    
+}
+
+@media screen and (min-width:1440px) {
+    .menu__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        color: #464646;
+    }
+    
 }

@@ -8,9 +8,16 @@
     justify-content: space-between; */
 }
 
+@media screen and (min-width:1024px) {
+    .experience {
+        padding: 6rem 4rem;
+    }
+    
+}
+
 @media screen and (min-width:1440px) {
     .experience {
-        padding: 2rem 9.5rem 2rem 9.5rem;
+        padding: 6rem 9.5rem;
     }
     
 }

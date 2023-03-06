@@ -7,6 +7,12 @@
     color: #2A7AE4;
     border: 1px solid #2A7AE4;
     padding: 0.75rem 1rem;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
 @media screen and (min-width:1440px) {

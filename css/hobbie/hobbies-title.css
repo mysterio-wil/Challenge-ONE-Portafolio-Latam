@@ -19,6 +19,17 @@
     }
 }
 
+@media screen and (min-width:1024px) {
+    .hobbies__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.375rem;
+        text-align: center;
+        color: #464646;
+    }
+}
 
 @media screen and (min-width:1440px) {
     .hobbies__title {

@@ -84,10 +84,10 @@
 <body>
   <!-- Sección del Menú  -->
   <div class="tudo">
-    <section class="menu">
+    <section class="menu container">
       <header class="menu__header">
         <img src="assets\vector.png" class="menu__imagen" />
-        <h3 class="menu__title">Fulana de Tal</h3>
+        <h3 class="menu__title">Wilmer Gulcochía</h3>
       </header>
       <nav>
         <ul class="menu__list">
@@ -96,12 +96,10 @@
           <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
           <li class="menu__list__item"><a href="#formacion">Formación</a></li>
           <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-          <li class="menu__list__item--activo">
-            <a href="#contacto">Contacto@fulana.com</a>
-          </li>
+          <li class="menu__list__item--activo"><a href="#contacto">Contacto@wigusa.com</a></li>
         </ul>
         <li class="menu__list__item__contato">
-          <a href="#contacto">contacto@fulana.com</a>
+          <a href="#contacto">contacto@wigusa.com</a>
         </li>
       </nav>
     </section>
@@ -112,7 +110,7 @@
         <img class="title__profile" src="assets\profile.png" />
         <div class="title__container">
           <h2 class="title__bio">
-            Hola, mi nombre es Fulana de Tal y construyo paginas web
+            Hola, mi nombre es Wilmer y construyo paginas web
           </h2>
           <h3 class="title__subsection">
             Soy formada en .... lorem ipsum sit amet consectetur y actualmente
@@ -121,20 +119,20 @@
           <ul class="title__network">
             <!-- Pon los enlaces de tus redes sociales favoritas -->
             <li class="title__network__item">
-              <a href="">Github
+              <a href="https://github.com/nobody-redhawk" target="_blank" rel="noopener noreferrer">Github
                 <img class="title__network__item--arrow" src="assets\arrow.png" />
               </a>
             </li>
             <li class="title__network__item">
-              <a href="">Linkedin
+              <a href="" target="_blank" rel="noopener noreferrer">Linkedin
                 <img class="title__network__item--arrow" src="assets\arrow.png" /></a>
             </li>
             <li class="title__network__item">
-              <a href="">Instagram
+              <a href="" target="_blank" rel="noopener noreferrer">Instagram
                 <img class="title__network__item--arrow" src="assets\arrow.png" /></a>
             </li>
             <li class="title__network__item">
-              <a href="">Currículo
+              <a href="" target="_blank" rel="noopener noreferrer">Currículo
                 <img class="title__network__item--arrow" src="assets\arrow.png" /></a>
             </li>
           </ul>
@@ -414,9 +412,19 @@
             lo antes posible.
           </h3>
           <form class="formcontact__form" name="form">
-            <input class="formcontact__input" type="text" name="nombre" placeholder="Nombre" />
-            <input class="formcontact__input" type="email" name="email" placeholder="E-mail" />
-            <input class="formcontact__input" type="text" name="asunto" placeholder="Assunto" />
+            <!-- <input class="formcontact__input" type="text" name="nombre" placeholder="Nombre" /> -->
+            <div class="formcontact__grupo">
+              <input class="formcontact__input" for="nombre" type="text" name="nombre" required id="nombre"><span class="barra" ></span>
+              <label for="nombre">Nombre</label>
+            </div>
+            <div class="formcontact__grupo">
+              <input class="formcontact__input" for="E-mail" type="text" name="email" placeholder="" required id="email"/><span class="barra" ></span>
+              <label for="E-mail" ">E-mail</label>
+            </div>
+            <div class="formcontact__grupo">
+              <input class="formcontact__input" for="asunto" type="text" name="asunto" required id="asunto" placeholder=" " /><span class="barra" ></span>
+              <label for="asunto">Asunto</label>
+            </div>
             <textarea class="formcontact__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
               placeholder="Mensaje"></textarea>
             <button type="submit" class="formcontact__button">

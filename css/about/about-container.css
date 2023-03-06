@@ -11,9 +11,17 @@
     
 }
 
+@media screen and (min-width: 1024px) {
+    .about__container {
+        padding: 6rem 4rem;
+        background: #EAF2FD;
+    }
+    
+}
+
 @media screen and (min-width: 1440px) {
     .about__container {
-        padding: 4rem 9.5rem;
+        padding: 6rem 9.5rem;
         background: #EAF2FD;
     }
     

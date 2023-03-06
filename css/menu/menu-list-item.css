@@ -1,3 +1,33 @@
+@media screen and (min-width: 1024px) {
+    .menu__list__item {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font: size 1rem;;
+        line-height: 1.1875rem;
+        color: #464646;
+        margin-left: 2rem;
+    }
+
+    .menu__list__item:hover {
+        color: red;
+        /* text-decoration: underline; */
+    }
+
+    .menu__list__item--activo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        color: #464646;
+        margin-left: 2rem;
+        /* margin-right: 1rem; */
+    }
+    
+}
+
+
 @media screen and (min-width: 1440px) {
     .menu__list__item {
         font-family: 'Raleway';
@@ -9,6 +39,11 @@
         margin-left: 2rem;
     }
 
+    .menu__list__item:hover {
+        color: red;
+        /* text-decoration: underline; */
+    }
+
     .menu__list__item--activo {
         font-family: 'Raleway';
         font-style: normal;
@@ -17,6 +52,7 @@
         line-height: 1.1875rem;
         color: #464646;
         margin-left: 2rem;
+        /* margin-right: 1rem; */
     }
     
 }

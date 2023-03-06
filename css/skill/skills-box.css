@@ -5,7 +5,12 @@
     background-color: #FFFFFF;
     align-items: flex-end;
     display: flex;
-    
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
 @media screen and (min-width:768px) {
@@ -19,6 +24,21 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .skills__box {
+        width: 23%;
+        height: 174px;
+       /*  margin-top: 2rem; */
+        background-color: #FFFFFF;
+        align-items: flex-end;
+        display: flex;
+        
+        margin: 3.6% 1% 0 1%;
+        
+
+    }
+    
+}
 @media screen and (min-width: 1440px) {
     .skills__box {
         width: 176px;

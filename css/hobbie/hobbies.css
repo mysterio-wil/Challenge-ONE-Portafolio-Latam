@@ -11,8 +11,14 @@
     
 }
 
+@media screen and (min-width: 1024px) {
+    .hobbies {
+        padding: 6rem 4rem;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .hobbies {
-        padding: 2rem 9.5rem 5.5rem 9.5rem;
+        padding: 6rem 9.5rem;
     }
 }

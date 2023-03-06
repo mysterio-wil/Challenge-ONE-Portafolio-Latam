@@ -1,17 +1,24 @@
 .title {
     display: flex;
+    padding-top: 3.375rem;
 }
 
 @media screen and (min-width:768px) {
     .title {
-        padding: 2rem;
+        padding: 5.5rem 2rem 2rem 2rem;
     }
     
 }
 
+@media screen and (min-width:1024px) {
+    .title {
+        padding: 7.5rem 4rem 2rem 4rem;
+    }
+    
+}
 @media screen and (min-width:1440px) {
     .title {
-        padding: 2rem 152px 2rem 152px;
+        padding: 7.5rem 152px 2rem 152px;
     }
     
 }

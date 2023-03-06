@@ -1,20 +1,38 @@
 .menu {
     display: flex;
-    padding: 1rem;
+    /* padding: 1rem; */
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
+    padding: 1rem 0;
+    
+}
+.container {
+    background-color:#F5F5F5;
+    backdrop-filter: blur(5px);
+    place-items: center;
+    z-index: 2;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid #464646;
 }
 
 @media screen and (min-width:768px) {
     .menu {
-        padding: 1rem 2rem;
+        /* padding: 1rem 2rem; */
     }
     
 }
 
+@media  screen and (min-width: 1024px) {
+    .menu {
+        padding: 2rem 0rem; 
+    }
+    
+}
 @media  screen and (min-width: 1440px) {
     .menu {
-        padding: 2rem 9.5rem;
+        padding: 2rem 0rem; 
     }
     
 }
