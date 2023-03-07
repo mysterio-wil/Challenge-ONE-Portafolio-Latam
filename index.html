@@ -300,7 +300,7 @@
           <ul class="academic__courses__list">
             <!--Pon el logotipo de la institución de formación -->
             <li class="academic__courses__item__img">
-              <img class="academic__courses__item__img--segunda" src="assets\alura_logo.png" />
+              <img class="academic__courses__item__img--segunda" src="assets\alura_logo.png" /> 
             </li>
             <li class="academic__courses__item__title">
               <h4>Formación en UX Design</h4>
@@ -411,18 +411,18 @@
             Complete el siguiente formulario y me pondré en contacto con usted
             lo antes posible.
           </h3>
-          <form class="formcontact__form" name="form">
+          <form class="formcontact__form" name="form" id="form">
             <!-- <input class="formcontact__input" type="text" name="nombre" placeholder="Nombre" /> -->
             <div class="formcontact__grupo">
-              <input class="formcontact__input" for="nombre" type="text" name="nombre" required id="nombre"><span class="barra" ></span>
+              <input class="formcontact__input" for="nametype="text" name="name" id="name" required><span class="barra" ></span> <!-- required -->
               <label for="nombre">Nombre</label>
             </div>
             <div class="formcontact__grupo">
-              <input class="formcontact__input" for="E-mail" type="text" name="email" placeholder="" required id="email"/><span class="barra" ></span>
+              <input class="formcontact__input" for="E-mail" type="email" name="email" id="email" required/><span class="barra" ></span> <!-- required -->
               <label for="E-mail" ">E-mail</label>
             </div>
             <div class="formcontact__grupo">
-              <input class="formcontact__input" for="asunto" type="text" name="asunto" required id="asunto" placeholder=" " /><span class="barra" ></span>
+              <input class="formcontact__input" for="asunto" type="text" name="asunto" id="asunto" required/><span class="barra" ></span> <!-- required -->
               <label for="asunto">Asunto</label>
             </div>
             <textarea class="formcontact__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
@@ -430,6 +430,7 @@
             <button type="submit" class="formcontact__button">
               Enviar mensaje
             </button>
+            <p class="warnings" id="warnings"></p>
           </form>
         </div>
       </div>

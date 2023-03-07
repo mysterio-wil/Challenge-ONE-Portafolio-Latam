@@ -1,28 +1,35 @@
-//Haz tú validación en javascript acá
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const asunto = document.getElementById("asunto");
+const mensaje = document.getElementById("mensagem");
+const form = document.getElementById("form");
+const parrafo = document.getElementById("warnings");
 
-function validarDatos(){
-    window.event.preventDefault()
-     
-    if (document.form.nombre.value=="" ) {
-        alert("Campo nombre es obligatorio")  
-        document.form.nombre.focus()
-    
-    }else if (document.form.email.value=="") {
-        alert("Campo e-mail es obligatorio")
-        document.form.email.focus() 
-
-    }else if (document.form.asunto.value=="" ) {
-        alert("Campo Asunto es obligatorio")
-        document.form.asunto.focus() 
-
-    }else if (document.form.mensaje.value=="" || document.form.mensaje.value.length <= 50 ){
-        alert("Campo Mensaje es obligatorio y debe contener máximo 50 carateres") 
-        document.form.mensaje.focus()
-      
-    } else if (document.form.email.value.indexOf('@')==-1 ||
-    document.form.email.value.indexOf('.')==-1 ) {
-        alert("e-mail inválido")
+form.addEventListener("submit", e=>{
+    e.preventDefault()
+    let warnings = ''
+    let entrar = false;
+    let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+    parrafo.innerHTML = ""
+    if(name.value.length<6){
+        warnings += `El nombre no es válido <br>`
+        entrar = true
     }
-   
-}
-    document.querySelector('form').addEventListener('submit',validarDatos)
+    if(!regexEmail.test(email.value)) {
+        warnings += `El email no es válido <br>`
+        entrar = true
+    }
+    if(asunto.value.length<10){
+        warnings += `El asunto es muy corto <br>`
+        entrar = true
+    }
+    if(mensaje.value.length<20){
+        warnings += `El mensaje debe tener al menos 20 caracteres <br>`
+        entrar = true
+    }
+    if(entrar) {
+        parrafo.innerHTML = warnings;
+    }else{
+        parrafo.innerHTML = "Enviado"
+    }
+})
