@@ -1,6 +1,6 @@
 .title {
     display: flex;
-    padding-top: 3.375rem;
+    padding-top: 4.375rem;
 }
 
 @media screen and (min-width:768px) {

@@ -5,15 +5,95 @@
     font-size: 14px;
     line-height: 16px;
     color: #464646;
-    padding: 4px;
-    border-radius: 16px;
-    border: 2px solid #464646;
+    display: none;
     
 }
-.title__network__item--arrow {
-    width: 8px;
-    height: 8px;
-    vertical-align: middle;
+
+.title__network__item__icon i{
+
+    font-size: 3rem;
+    color: #464646;
+
+}
+
+.title__network__item__icon:hover i{
+
+    font-size: 3rem;
+    
+
+}
+
+
+.title__network__item__icon .fa-github {
+    color: rgb(159, 159, 164)
+}
+
+
+.title__network__item__icon:hover .fa-github{
+    color: black;
+    transform: scale(1.1);
+    transition: .5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.title__network__item__icon .fa-linkedin {
+    color: rgb(159, 159, 164)
+}
+
+.title__network__item__icon:hover .fa-linkedin {
+    color: #0e76a8;
+    transform: scale(1.1);
+    transition: .5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.title__network__item__icon .fa-instagram {
+    color: rgb(159, 159, 164);
+}
+
+.title__network__item__icon:hover .fa-instagram {
+    color: #fd5949;
+    transform: scale(1.1);
+    transition: .5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+} 
+
+.title__network__item__icon .fa-facebook {
+    color: rgb(159, 159, 164);
+}
+
+.title__network__item__icon:hover .fa-facebook {
+    color: #4267B2;
+    transform: scale(1.1);
+    transition: .5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+} 
+ 
+
+.title__network__item__icon .fa-file {
+    color: rgb(159, 159, 164)
+}
+
+.title__network__item__icon:hover .fa-file {
+    color: #c31e3d;
+    transform: scale(1.1);
+    transition: .5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 @media screen and (min-width:768px) {
@@ -26,13 +106,95 @@
         color: #464646;
         margin-right: 2rem;
         align-items: center;
+        display: block;
+        padding: 8px;
+        margin-right: 1.5rem;
+        border-radius: 25px;
+        border: 1px solid #4646;
     }
-    .title__network__item--arrow {
-        width: 12px;
-        height: 12px;
-        padding-left: 4px;
-        vertical-align: middle;
+
+    .title__network__item a {
+        display: flex;
+        align-items: center;
     }
+    .title__network__item i{
+
+        font-size: 1.5rem;
+        color: #464646;
+    
+    }
+    .title__network__item:hover i{
+
+        font-size: 1.5rem;
+        color: white;
+    
+    }
+
+
+    .button__linkedin {
+        color: #0e76a8;
+      }
+      
+      .button__linkedin:hover {
+        background: #0e76a8;
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+      }
+
+    .button__linkedin:hover a {
+    
+        color: white !important;
+        z-index: inherit;
+      }
+
+      .button__instagram {
+        color: #d6249f;
+      }
+      
+      .button__instagram:hover {
+        background: #d6249f; 
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+      }
+
+      .button__instagram:hover a {
+    
+        color: white !important;
+        z-index: inherit;
+      }
+
+      .button__github {
+        color: #333!;
+      }
+      
+      .button__github:hover { 
+        background: #333;
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+      }
+
+      .button__github:hover a {
+    
+        color: white !important;
+        z-index: inherit;
+      }
+
+      .button__cv {
+        color: #c31e3d;
+      }
+      
+      .button__cv:hover {
+        background: #c31e3d;
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+      }
+
+      .button__cv:hover a {
+        color: white !important;
+        z-index: inherit;
+      }  
+
+    .title__network__item__icon i {
+        display: none;
+    }
+
     
 }
 

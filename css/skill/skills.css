@@ -1,12 +1,12 @@
 .skills {
     padding: 1rem;
-    background: #E5E5E5;
+    background: #F5F5F5;
 }
 
 @media screen and (min-width:768px) {
     .skills {
         padding: 2rem;
-        background: #E5E5E5;
+        background: #F5F5F5;
     }
     
 }

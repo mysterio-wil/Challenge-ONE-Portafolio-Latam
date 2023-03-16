@@ -4,15 +4,19 @@
     font-weight: 600;
     font-size: 0.875rem;
     line-height: 1rem;
-    color: #2A7AE4;
-    border: 1px solid #2A7AE4;
+    color: #c31e3d;
+    border: 1px solid #c31e3d;
     padding: 0.75rem 1rem;
     box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
     border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
+    cursor: pointer;
+    transition: .5s;
+    /* border: none; */
+}
+
+.experience__button--repo:hover {
+    scale: 1.05;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width:1440px) {
@@ -22,6 +26,6 @@
         font-weight: 400;
         font-size: 1rem;
         line-height: 1.1875rem;
-        color: #2A7AE4;
+        color: #c31e3d;
     }
 }

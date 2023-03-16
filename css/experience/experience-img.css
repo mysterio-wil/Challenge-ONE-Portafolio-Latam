@@ -6,6 +6,12 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+    transition: 0.5s;
+    
+}
+
+.experience__img:hover {
+    transform: translateY(-2%);
 }
 
 @media screen and (min-width:1440px) {
@@ -23,6 +29,7 @@
         -moz-border-radius: 4px;
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
+        transform: translateY(-2%);
 }
 
     .experience__img--imagen2 {
@@ -34,6 +41,7 @@
         -moz-border-radius: 4px;
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
+        transform: translateY(-2%);
 }
 
     

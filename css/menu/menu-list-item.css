@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 1024px) {
     .menu__list__item {
         font-family: 'Raleway';
@@ -9,8 +11,8 @@
         margin-left: 2rem;
     }
 
-    .menu__list__item:hover {
-        color: red;
+    .menu__list__item:hover a {
+        color: #c31e3d;
         /* text-decoration: underline; */
     }
 
@@ -39,8 +41,8 @@
         margin-left: 2rem;
     }
 
-    .menu__list__item:hover {
-        color: red;
+    .menu__list__item:hover a {
+        color: #c31e3d;
         /* text-decoration: underline; */
     }
 

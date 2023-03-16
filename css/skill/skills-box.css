@@ -7,11 +7,22 @@
     display: flex;
     box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
     border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
 }
+
+
+
+.skills__box:hover {
+    /* border: 0.01px solid red; */
+    box-shadow: 2px 2px 5px #c31e3d;
+    transform: scale(1.02);
+    transition: .5s;
+    
+
+}
+
+/* .skill__box:hover {
+    position: ;
+} */
 
 @media screen and (min-width:768px) {
     .skills__box {

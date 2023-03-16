@@ -11,6 +11,24 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+    transition: .5s;
+}
+.hobbies__box:hover {
+    background-color: #c31e3d;
+    transform: scale(1.05);
+    z-index: 1;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.hobbies__box:hover i  {
+    color: white;
+}
+
+.hobbies__box:hover .hobbies__name  {
+    color: white;
 }
 
 @media screen and (min-width:768px) {

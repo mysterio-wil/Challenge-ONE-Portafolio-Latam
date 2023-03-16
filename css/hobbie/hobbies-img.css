@@ -1,3 +1,16 @@
 .hobbies__img {
     padding-left: 1rem;
 }
+
+.hobbies__img i {
+    font-size: 2rem;
+    color: gray;
+    
+}
+
+
+.hobbies__img:hover i {
+    font-size: 2rem;
+    color: white;
+    
+}

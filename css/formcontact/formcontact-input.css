@@ -38,11 +38,11 @@
 }
 
 .formcontact__input:focus{
-    border-bottom: 2px solid #2A7AE4;
+    border-bottom: 2px solid #c31e3d;
     transition: all .5s ease;
     /* color: #5e5d5d; */
 }
- label{
+.formcontact__grupo--label{
     color: #c6c6c6;
     font-size: 16px;
     position: absolute;
@@ -58,7 +58,7 @@
     
  }
  
-.formcontact__input:focus~label{
+/* .formcontact__input:focus~.formcontact__grupo--label{
     top: 0.25rem;
     transition: all 0.5s;
     color:#2A7AE4;
@@ -69,8 +69,22 @@
     line-height: 16px;
 
     
+} */
+
+.formcontact__grupo 
+.formcontact__input::placeholder {
+    visibility: hidden;
+  }
+
+.formcontact__grupo .formcontact__input:not(:placeholder-shown) + .formcontact__grupo--label,
+.formcontact__input:focus + .formcontact__grupo--label{
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #c31e3d;
 }
-.formcontact__input:valid~label {
+
+/* .formcontact__input:valid~.formcontact__grupo--label {
     color: #c6c6c6;
     font-size: 16px;
     top: 0.25rem;
@@ -83,40 +97,15 @@
     line-height: 16px;
 
     
- }
- .formcontact__input.full+label{
+ } */
+/*  .formcontact__input.full+.formcontact__grupo--label{
     top: 0.25rem;
     left: 0.75rem;
 
     font-size: 0.8rem;
     font-weight: 600;
-}
-
-
-/* .barra{
-    display: block;
-    position: relative;
-    width: 100%;
-    
 } */
 
-
-/* .barra::before{
-    content: "";
-    width: 0% ;
-    height: 2px;
-    bottom: 0;
-    position: absolute;
-    background: linear-gradient(45deg, #45C4B0,#9AEBA3);
-    transition: all .5s ease;
-} */
-
-
-/*  .formcontact__input:focus~.barra::before{
-    width: 100%;
-    
-    
-}  */
 
 /* 
 .formcontact__input {

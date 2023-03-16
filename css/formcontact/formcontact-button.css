@@ -2,7 +2,7 @@
     padding: 12px 16px;
     width: 133px;
     height: 40px;
-    background: #2A7AE4;
+    background: #c31e3d;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -11,15 +11,25 @@
     color: #FFFFFF;
     border: none;
     margin-top: 2rem;
-    box-shadow: 5px 5px 5px rgb(0 0 0 / 40%)
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.5s;
 }
+
+.formcontact__button:hover {
+    scale: 1.05;
+    /* text-transform: uppercase; */
+    
+}
+
 
 @media screen and (min-width:1440px) {
     .formcontact__button {
         padding: 1rem;
         width: 148px;
         height: 51px;
-        background: #2A7AE4;
+        background: #c31e3d;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 400;

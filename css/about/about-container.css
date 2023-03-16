@@ -1,12 +1,12 @@
 .about__container {
     padding: 1rem;
-    background: #EAF2FD;
+    background: #f3e4e4;
 }
 
 @media screen and (min-width: 768px) {
     .about__container {
         padding: 2rem;
-        background: #EAF2FD;
+        background: #f3e4e4;
     }
     
 }
@@ -14,7 +14,7 @@
 @media screen and (min-width: 1024px) {
     .about__container {
         padding: 6rem 4rem;
-        background: #EAF2FD;
+        background: #f3e4e4;
     }
     
 }
@@ -22,7 +22,7 @@
 @media screen and (min-width: 1440px) {
     .about__container {
         padding: 6rem 9.5rem;
-        background: #EAF2FD;
+        background: #f3e4e4;
     }
     
 }

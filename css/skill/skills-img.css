@@ -1,3 +1,7 @@
 .skills__img {
     padding-left: 1rem;
 }
+
+.skills__img--icon {
+    width: 30px;
+}

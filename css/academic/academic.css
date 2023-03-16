@@ -1,24 +1,24 @@
 .academic {
     padding: 2rem;
-    background: #EAF2FD;
+    background: #f3e4e4;
 }
 
 @media screen and (min-width:768px) {
     .academic {
         padding: 2rem;
-        background: #EAF2FD;
+        background: #f3e4e4;
     }
 }
 
 @media screen and (min-width:1024px) {
     .academic {
         padding: 6rem 4rem;
-        background: #EAF2FD;
+        background: #f3e4e4;
     }
 }
 @media screen and (min-width:1440px) {
     .academic {
         padding: 6rem 5.125rem;
-        background: #EAF2FD;
+        background: #f3e4e4;
     }
 }

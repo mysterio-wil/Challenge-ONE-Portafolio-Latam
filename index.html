@@ -78,62 +78,135 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <!-- Fonte del Proyecto Raleway -->
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" crossorigin="anonymous">
   <title>Mi Portafolio</title>
 </head>
 
 <body>
   <!-- Sección del Menú  -->
-  <div class="tudo">
+  <main class="tudo">
     <section class="menu container">
       <header class="menu__header">
-        <img src="assets\vector.png" class="menu__imagen" />
-        <h3 class="menu__title">Wilmer Gulcochía</h3>
+        <img src="./assets/logo.png" class="menu__imagen" alt="logo">
+        <h1 class="menu__title">Wilmer Gulcochía</h1>
       </header>
       <nav>
         <ul class="menu__list">
-          <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-          <li class="menu__list__item"><a href="#skills">Skills</a></li>
-          <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
-          <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-          <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-          <li class="menu__list__item--activo"><a href="#contacto">Contacto@wigusa.com</a></li>
+          <li class="menu__list__item">
+            <a href="#sobre-mi" class="menu__link">
+              <span class="menu__link--nombre"> &nbsp;&nbsp;Sobre mi </span>
+              <span class="menu__link--icon"><i class="fas fa-address-card" aria-hidden="true"></i></span>
+            </a>
+          </li>
+          <li class="menu__list__item">
+            <a href="#skills" class="menu__link"> 
+              <span class="menu__link--nombre">&nbsp;&nbsp;Skills</span> 
+              <span class="menu__link--icon"><i class="fa-solid fa-screwdriver-wrench"></i></span> 
+            </a>
+          </li>
+          <li class="menu__list__item">
+            <a href="#hobbies" class="menu__link"> 
+              <span class="menu__link--nombre">&nbsp;&nbsp;Hobbies</span> 
+              <span class="menu__link--icon"><i class="fa-solid fa-heart"></i></span> 
+            </a>
+          </li>
+          <li class="menu__list__item">
+            <a href="#formacion" class="menu__link"> 
+              <span class="menu__link--nombre">&nbsp;&nbsp;Formación</span> 
+              <span class="menu__link--icon"><i class="fa-solid fa-user-graduate"></i></span> 
+            </a>
+          </li>
+          <li class="menu__list__item">
+            <a href="#xp" class="menu__link"> 
+              <span class="menu__link--nombre">&nbsp;&nbsp;Proyectos</span> 
+              <span class="menu__link--icon"><i class="fas fa-tasks" aria-hidden="true"></i></span> 
+            </a>
+          </li>
+          <li class="menu__list__item--activo">
+            <a href="#contacto" class="menu__link"> 
+              <span class="menu__link--nombre">&nbsp;&nbsp;Contacto</span> 
+              <span class="menu__link--icon"><i class="fas fa-envelope-open-text" aria-hidden="true"></i></span> 
+            </a>
+          </li>
+
+          <li class="menu__list__item__contato">
+            <a href="#contacto">contacto@wigusa.com</a>
+          </li>
         </ul>
-        <li class="menu__list__item__contato">
-          <a href="#contacto">contacto@wigusa.com</a>
-        </li>
+        
       </nav>
+      <div class="menu__hamburguer">
+        <img src="assets/menu.svg" alt="menu" class="menu__img">
+      </div>
     </section>
 
     <!-- Sección del Header/Title/Hero -->
     <section class="title">
       <div class="title__div">
-        <img class="title__profile" src="assets\profile.png" />
+        <img class="title__profile" src="./assets/profile.png" alt="foto de perfil">
         <div class="title__container">
           <h2 class="title__bio">
-            Hola, mi nombre es Wilmer y construyo paginas web
-          </h2>
+            Hola, mi nombre es Wilmer, soy Bachiller en Agronomia, diseñador y desarrollador Web. </h2>
           <h3 class="title__subsection">
-            Soy formada en .... lorem ipsum sit amet consectetur y actualmente
+            Estudié Agronomía en la <strong>Universidad Nacional Agraria de la Selva</strong> y actualmente
             estoy participando del proyecto Oracle ONE en Alura Latam.
           </h3>
           <ul class="title__network">
             <!-- Pon los enlaces de tus redes sociales favoritas -->
-            <li class="title__network__item">
-              <a href="https://github.com/nobody-redhawk" target="_blank" rel="noopener noreferrer">Github
-                <img class="title__network__item--arrow" src="assets\arrow.png" />
+            <li class="title__network__item button__github">
+              <a href="https://github.com/nobody-redhawk" target="_blank" rel="noopener noreferrer">Github &nbsp;
+                <i class="fa-brands fa-github"></i>
               </a>
             </li>
-            <li class="title__network__item">
-              <a href="" target="_blank" rel="noopener noreferrer">Linkedin
-                <img class="title__network__item--arrow" src="assets\arrow.png" /></a>
+            <!-- icono  github-->
+            <li class="title__network__item__icon">
+              <a href="https://github.com/nobody-redhawk" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github"></i></a>
             </li>
-            <li class="title__network__item">
-              <a href="" target="_blank" rel="noopener noreferrer">Instagram
-                <img class="title__network__item--arrow" src="assets\arrow.png" /></a>
+            <li class="title__network__item button__linkedin">
+              <a href="https://www.linkedin.com/in/wilmer-gulcochia-sanchez/" target="_blank"
+                rel="noopener noreferrer">Linkedin &nbsp;
+                <i class="fa-brands fa-linkedin"></i></a>
             </li>
-            <li class="title__network__item">
-              <a href="" target="_blank" rel="noopener noreferrer">Currículo
-                <img class="title__network__item--arrow" src="assets\arrow.png" /></a>
+            <!-- icono linkedin -->
+            <li class="title__network__item__icon">
+              <a href="https://www.linkedin.com/in/wilmer-gulcochia-sanchez/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+
+            <li class="title__network__item button__instagram">
+              <a href="https://www.instagram.com/wigusa/" target="_blank" rel="noopener noreferrer">Instagram &nbsp;
+                <i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <!-- icono instagram -->
+            <li class="title__network__item__icon">
+              <a href="https://www.instagram.com/wigusa/" target="_blank" rel="noopener noreferrer">
+
+                <i class="fa-brands fa-instagram"></i>
+
+              </a>
+            </li>
+
+            <li class="title__network__item__icon">
+              <a href="https://www.instagram.com/wigusa/" target="_blank" rel="noopener noreferrer">
+
+                <i class="fa-brands fa-facebook"></i>
+
+              </a>
+            </li>
+
+
+            <li class="title__network__item button__cv">
+              <a href="https://1drv.ms/b/s!Ana8wvKT1S1uuEv7jNkLyi4ufJiD?e=GdXJe4" target="_blank" rel="noopener noreferrer">CV &nbsp;
+              <i class="fa-solid fa-file"></i></a>
+            </li>
+            <!-- icono cv -->
+            <li class="title__network__item__icon">
+              <a href="https://1drv.ms/b/s!Ana8wvKT1S1uuEv7jNkLyi4ufJiD?e=GdXJe4" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fa-solid fa-file"></i>
+              </a>
             </li>
           </ul>
         </div>
@@ -145,20 +218,15 @@
       <div class="about__container">
         <h3 class="about__title">Sobre mi</h3>
         <p class="about__paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Pellentesque velit velit, volutpat semper dignissim dictum,
-          imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
-          potenti. Ut semper sagittis ligula et lacinia.
+          Tengo 33 años, estudié Agronomía en la UNAS-Tingo María, con amplios conocimientos en el manejor integrado de
+          cultivos tropicales.
         </p>
         <p class="about__paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Pellentesque velit velit, volutpat semper dignissim dictum,
-          imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
-          potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis
-          venenatis, egestas metus vitae, aliquet metus.
+          Actualmente estoy en el programa <strong>One Next Education</strong> de <strong>Alura Latam</strong> en la
+          especialida de Front-End; tambien estoy realizando el <strong> <a target="_blank" href="https://undefinedshell.notion.site/Empezar-el-Bootcamp-65ae9344add24764a2569f61c9e3bfc1"> Bootcamp de JavaScript Full-stack </a></strong> en <strong> <a target="_blank" href="https://undefined.academy/"> Undefined Academy</a></strong> con <a target="_blank" href="https://guillermorodas.com/"></a> <strong>Guillermo Rodas</strong>.
         </p>
         <!-- Si quieres, pon tú firma acá! -->
-        <img class="about__imagen" src="assets\signature.png" />
+        <img class="about__imagen" src="./assets/signature.png" alt="firma">
       </div>
     </section>
 
@@ -168,7 +236,9 @@
       <div class="skills__line">
         <div class="skills__box">
           <ul>
-            <li class="skills__img"><img src="assets\htlm.png" /></li>
+            <li class="skills__img">
+              <img class="skills__img--icon" alt="html5" src="https://img.icons8.com/color/48/null/html-5--v1.png">
+            </li>
             <li class="skills__name">HTML 5</li>
           </ul>
         </div>
@@ -176,7 +246,16 @@
         <div class="skills__box">
           <ul>
             <li class="skills__img">
-              <img src="assets\js_icon.png" alt="" />
+              <img class="skills__img--icon" alt="CSS" src="https://img.icons8.com/color/48/null/css3.png">
+            </li>
+            <li class="skills__name">CSS</li>
+          </ul>
+        </div>
+
+        <div class="skills__box">
+          <ul>
+            <li class="skills__img">
+              <img class="skills__img--icon" alt="JavaScript" src="https://img.icons8.com/fluency/48/null/javascript.png" />
             </li>
             <li class="skills__name">Javascript</li>
           </ul>
@@ -185,36 +264,119 @@
         <div class="skills__box">
           <ul>
             <li class="skills__img">
-              <img src="assets\php_icon.png" alt="" />
+              <img class="skills__img--icon" alt="Git" src="https://img.icons8.com/color/48/null/git.png">
             </li>
-            <li class="skills__name">PHP</li>
+            <li class="skills__name">Git</li>
           </ul>
         </div>
 
         <div class="skills__box">
           <ul>
             <li class="skills__img">
-              <img src="assets\nodejs_icon.png" alt="" />
+              <img class="skills__img--icon" alt="Github" src="https://img.icons8.com/sf-black-filled/64/null/github.png">
             </li>
-            <li class="skills__name">Node JS</li>
+            <li class="skills__name">Github</li>
           </ul>
         </div>
 
         <div class="skills__box">
           <ul>
             <li class="skills__img">
-              <img src="assets\react_icon.png" alt="" />
+              <img class="skills__img--icon" alt="Terminal" src="https://img.icons8.com/fluency/48/null/console.png">
             </li>
-            <li class="skills__name">React</li>
+            <li class="skills__name">Terminal</li>
           </ul>
         </div>
 
         <div class="skills__box">
           <ul>
             <li class="skills__img">
-              <img src="assets\css_icon.png" alt="" />
+              <img class="skills__img--icon" alt="WordPress" src="https://img.icons8.com/color/48/null/wordpress.png">
             </li>
-            <li class="skills__name">CSS</li>
+            <li class="skills__name">WordPress</li>
+          </ul>
+        </div>
+
+        <div class="skills__box">
+          <ul>
+            <li class="skills__img">
+              <img class="skills__img--icon" alt="Figma" src="https://img.icons8.com/fluency/48/null/figma.png">
+            </li>
+            <li class="skills__name">Figma</li>
+          </ul>
+        </div>
+
+        <div class="skills__box">
+          <ul>
+            <li class="skills__img">
+              <img class="skills__img--icon" src="https://img.icons8.com/glyph-neue/64/null/notion.png" alt="Notion">
+            </li>
+            <li class="skills__name">Notion</li>
+          </ul>
+        </div>
+
+        <div class="skills__box">
+          <ul>
+            <li class="skills__img">
+              <img class="skills__img--icon" src="https://img.icons8.com/color/48/null/trello.png" alt="Trello">
+            </li>
+            <li class="skills__name">Trello</li>
+          </ul>
+        </div>
+
+        <div class="skills__box">
+          <ul>
+            <li class="skills__img">
+              <img class="skills__img--icon" src="https://img.icons8.com/fluency/48/null/canva-app.png" alt="Canva" />
+            </li>
+            <li class="skills__name">Canva</li>
+          </ul>
+        </div>
+        <div class="skills__box">
+          <ul>
+            <li class="skills__img">
+              <img class="skills__img--icon" src="https://img.icons8.com/color/48/null/adobe-illustrator--v1.png"
+                alt="Illustrator" />
+            </li>
+            <li class="skills__name">Illustrato</li>
+          </ul>
+        </div>
+
+        <div class="skills__box">
+          <ul>
+            <li class="skills__img">
+              <img class="skills__img--icon" src="https://img.icons8.com/color/48/null/adobe-photoshop--v1.png" alt="Photoshop">
+            </li>
+            <li class="skills__name">Photoshop</li>
+          </ul>
+        </div>
+
+        <div class="skills__box">
+          <ul>
+            <li class="skills__img">
+              <img class="skills__img--icon" src="https://img.icons8.com/color/48/null/adobe-after-effects--v1.png" alt="After Effects" />
+            </li>
+            <li class="skills__name">After Effects</li>
+          </ul>
+        </div>
+
+
+        <div class="skills__box">
+          <ul>
+            <li class="skills__img">
+              <img class="skills__img--icon" src="https://img.icons8.com/color/48/null/adobe-premiere-pro--v1.png"
+                alt="Premier Pro">
+            </li>
+            <li class="skills__name">Premier Pro</li>
+          </ul>
+        </div>
+
+        <div class="skills__box">
+          <ul>
+            <li class="skills__img">
+              <img class="skills__img--icon" src="https://img.icons8.com/fluency/48/null/autocad.png" alt="Autocad">
+            </li>
+            <li class="skills__name">Autocad</li>
           </ul>
         </div>
       </div>
@@ -226,33 +388,35 @@
       <div class="hobbies__line">
         <div class="hobbies__box">
           <ul>
-            <li class="hobbies__img"><img src="assets\skate_icon.png" /></li>
-            <li class="hobbies__name">Patinaje</li>
-          </ul>
-        </div>
-
-        <div class="hobbies__box">
-          <ul>
             <li class="hobbies__img">
-              <img src="assets\guitar_icon.png" alt="" />
+              <i class="fa-solid fa-pencil"></i>
             </li>
-            <li class="hobbies__name">Tocar bajo</li>
+            <li class="hobbies__name">Dibujar</li>
           </ul>
         </div>
-
         <div class="hobbies__box">
           <ul>
             <li class="hobbies__img">
-              <img src="assets\headphones_icon.png" alt="" />
+              <i class="fa-solid fa-book"></i>
             </li>
-            <li class="hobbies__name">Oir música</li>
+            <li class="hobbies__name">Leer</li>
           </ul>
         </div>
 
         <div class="hobbies__box">
           <ul>
             <li class="hobbies__img">
-              <img src="assets\tv_icon.png" alt="" />
+              <i class="fa-solid fa-headphones"></i>
+
+            </li>
+            <li class="hobbies__name">Escuchar música</li>
+          </ul>
+        </div>
+
+        <div class="hobbies__box">
+          <ul>
+            <li class="hobbies__img">
+              <i class="fa-solid fa-tv"></i>
             </li>
             <li class="hobbies__name">Ver séries</li>
           </ul>
@@ -261,16 +425,7 @@
         <div class="hobbies__box">
           <ul>
             <li class="hobbies__img">
-              <img src="assets\forkspoon_icon.png" alt="" />
-            </li>
-            <li class="hobbies__name">Cocinar</li>
-          </ul>
-        </div>
-
-        <div class="hobbies__box">
-          <ul>
-            <li class="hobbies__img">
-              <img src="assets\camera_icon.png" alt="" />
+              <i class="fa-solid fa-camera"></i>
             </li>
             <li class="hobbies__name">Tomar fotos</li>
           </ul>
@@ -285,14 +440,14 @@
         <div class="academic__courses__box">
           <ul class="academic__courses__list">
             <!-- Pon el logotipo de la institución de formación -->
-            <li class="academic__courses__item__img">
-              <img class="academic__courses__item__img--primera" src="assets\ufpr_logo.png" />
+            <li  class="academic__courses__item__img">
+              <img src="./assets/unas.png" alt="unas">
             </li>
             <li class="academic__courses__item__title">
-              <h4>Análisis de datos</h4>
+              <h4>Agronomía</h4>
             </li>
             <li class="academic__courses__item__subtitle">
-              <p>2018 - UFPR</p>
+              <p>2009 - UNAS</p>
             </li>
           </ul>
         </div>
@@ -300,27 +455,43 @@
           <ul class="academic__courses__list">
             <!--Pon el logotipo de la institución de formación -->
             <li class="academic__courses__item__img">
-              <img class="academic__courses__item__img--segunda" src="assets\alura_logo.png" /> 
+              <img src="./assets/logo-egg.jfif" alt="logo-egg">
             </li>
             <li class="academic__courses__item__title">
-              <h4>Formación en UX Design</h4>
+              <h4>Programación desde Cero</h4>
             </li>
             <li class="academic__courses__item__subtitle">
-              <p>2019 - Alura</p>
+              <p>2022 - Egg Cooperation</p>
             </li>
           </ul>
         </div>
+
+        <div class="academic__courses__box">
+          <ul class="academic__courses__list">
+            <!--Pon el logotipo de la institución de formación -->
+            <li class="academic__courses__item__img">
+              <img src="./assets/logo-aleph.png" alt="logo-aleph">
+            </li>
+            <li class="academic__courses__item__title">
+              <h4>Marketing Digital SPA15</h4>
+            </li>
+            <li class="academic__courses__item__subtitle">
+              <p>2022 - Aleph Group, Inc</p>
+            </li>
+          </ul>
+        </div>
+
         <div class="academic__courses__box">
           <ul class="academic__courses__list">
             <!-- Pon el logotipo de la institución de formación -->
             <li class="academic__courses__item__img">
-              <img class="academic__courses__item__img--tercera" src="assets\ufrj_logo.png" />
+              <img src="./assets/logo-alura.svg" alt="logo-alura">
             </li>
             <li class="academic__courses__item__title">
-              <h4>Posgrado en diseño</h4>
+              <h4>Front-End</h4>
             </li>
             <li class="academic__courses__item__subtitle">
-              <p>En curso - UFRJ</p>
+              <p>En curso - Alura Latam</p>
             </li>
           </ul>
         </div>
@@ -329,80 +500,106 @@
 
     <!-- Sección de Experiencia Profesional/Proyectos-->
     <section class="experience" id="xp">
-      <h2 class="experience__section__title">Experiencia Profissional</h2>
+      <h2 class="experience__section__title">Experiencia Profesional</h2>
       <div class="experience__box">
         <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-        <img class="experience__img experience__img--imagen1" src="assets\decod_print.png" />
+        <img class="experience__img experience__img--imagen1" src="./assets/decod_print.png" alt="imagen-decodificador">
         <div class="experience__info">
           <h2 class="experience__title">Encriptador de texto</h2>
           <h3 class="experience__text">Challenge Alura Codificador</h3>
           <div class="experience__description">
             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-            <span class="experience__repo"><a
-                href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button
-                  class="experience__button--repo">Repositório</button></a></span>
-            <span class="experience__demo"><a href=""><button class="experience__button--demo">Ver
-                  demo</button></a></span>
+            <span class="experience__repo">
+              
+              <a class="experience__button--repo" target="_blank" href="https://github.com/nobody-redhawk/Challenge-ONE-Encriptador-de-texto">Repositório</a>     
+            </span>
+            <span class="experience__demo">
+              <a class="experience__button--demo" target="_blank" href="https://nobody-redhawk.github.io/Challenge-ONE-Encriptador-de-texto/">Ver demo </a>
+            </span>
           </div>
         </div>
       </div>
 
       <div class="experience__box">
         <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-        <img class="experience__img experience__img--imagen2" src="assets\forca_print.png" />
+        <img class="experience__img experience__img--imagen2" src="./assets/barberia_alura.png" alt="imagen-barberia-alura">
         <div class="experience__info">
-          <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
-          <h3 class="experience__text">Challenge Oracle</h3>
+          <h2 class="experience__title">Barberia Alura</h2>
+          <h3 class="experience__text">CSS Avanzado</h3>
           <div class="experience__description">
             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-            <span class="experience__repo"><a
-                href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button
-                  class="experience__button--repo"> Repositório</button></a></span>
-            <span class="experience__demo"><a href=""><button class="experience__button--demo">Ver
-                  demo</button></a></span>
+            <span class="experience__repo">
+              <a class="experience__button--repo" target="_blank" href="https://github.com/nobody-redhawk/HTML5-y-CSS3-parte-4-Avanzado-en-CSS">Repositório</a>
+            </span>
+            <span class="experience__demo">
+              <a class="experience__button--demo" target="_blank" href="https://nobody-redhawk.github.io/HTML5-y-CSS3-parte-4-Avanzado-en-CSS/"> Ver demo</a>
+            </span>
           </div>
         </div>
       </div>
 
       <div class="experience__box">
         <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-        <img class="experience__img experience__img--imagen1" src="assets\secretcode_print.png" />
+        <img class="experience__img experience__img--imagen1" src="./assets/mini-alura.png" alt="imagen-mini-alura">
         <div class="experience__info">
-          <h2 class="experience__title">Encriptador de texto</h2>
-          <h3 class="experience__text">Challenge Oracle</h3>
+          <h2 class="experience__title">Mini Alura</h2>
+          <h3 class="experience__text">Flexbox CSS</h3>
           <div class="experience__description">
             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-            <span class="experience__repo"><a
-                href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button
-                  class="experience__button--repo"> Repositório</button></a></span>
-            <span class="experience__demo"><a href=""><button class="experience__button--demo">Ver
-                  demo</button></a></span>
+            <span class="experience__repo">
+              <a class="experience__button--repo" target="_blank" href="https://github.com/nobody-redhawk/Flexbox-Posicione_elementos_en_la_pantalla"> Repositório</a> 
+            </span>
+            <span class="experience__demo">
+              <a class="experience__button--demo" target="_blank" href="https://nobody-redhawk.github.io/Flexbox-Posicione_elementos_en_la_pantalla/">Ver demo </a>
+            </span>
           </div>
         </div>
       </div>
 
       <div class="experience__box">
-        <img class="experience__img experience__img--imagen2" src="assets\forca2_print.png" />
+        <img class="experience__img experience__img--imagen2" src="./assets/apeperia.png" alt="imagen-apeperia">
         <div class="experience__info">
-          <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
-          <h3 class="experience__text">Challenge Oracle</h3>
+          <h2 class="experience__title">Apeperia</h2>
+          <h3 class="experience__text">Layouts Resposivos</h3>
           <div class="experience__description">
             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-            <span class="experience__repo"><a
-                href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button
-                  class="experience__button--repo">Repositório</button></a></span>
-            <span class="experience__demo"><a href=""><button class="experience__button--demo">Ver
-                  demo</button></a></span>
+            <span class="experience__repo">
+              <a class="experience__button--repo" target="_blank" href="https://github.com/nobody-redhawk/Layouts_Responsivos_Trabajando_con_layouts_mobile"> Repositório</a>
+              
+            </span>
+            <span class="experience__demo">
+              <a class="experience__button--demo" target="_blank" href="https://nobody-redhawk.github.io/Layouts_Responsivos_Trabajando_con_layouts_mobile/"> Ver demo</a>
+              
+            </span>
           </div>
         </div>
       </div>
+
+      <div class="experience__box">
+        <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+        <img class="experience__img experience__img--imagen1" src="./assets/frutayfruto.png" alt="imagen-frutayfruto">
+        <div class="experience__info">
+          <h2 class="experience__title">Fruta y fruto</h2>
+          <h3 class="experience__text">Arquitectura CSS</h3>
+          <div class="experience__description">
+            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+            <span class="experience__repo">
+              <a class="experience__button--repo" target="_blank" href="https://github.com/nobody-redhawk/Arquitectura_CSS-descomplicando-los-problemas"> Repositório</a>
+              </span>
+            <span class="experience__demo">
+              <a class="experience__button--demo" target="_blank" href="https://nobody-redhawk.github.io/Arquitectura_CSS-descomplicando-los-problemas/">Ver demo</a>
+            </span>
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <!-- Sección de Contacto -->
     <section class="formcontact" id="contacto">
       <div class="formcontact__contact">
         <div class="formcontact--left">
-          <img class="formcontact__img" src="assets\contact_image.png" />
+          <img class="formcontact__img" src="./assets/contact_image.png" alt="imagen de contacto">
         </div>
         <div class="formcontact__text">
           <h2 class="formcontact__title">Contacto</h2>
@@ -411,20 +608,29 @@
             Complete el siguiente formulario y me pondré en contacto con usted
             lo antes posible.
           </h3>
-          <form class="formcontact__form" name="form" id="form">
+          <form action="https://formspree.io/f/xdovdynk" class="formcontact__form" name="form" id="form">
             <!-- <input class="formcontact__input" type="text" name="nombre" placeholder="Nombre" /> -->
             <div class="formcontact__grupo">
-              <input class="formcontact__input" for="nametype="text" name="name" id="name" required><span class="barra" ></span> <!-- required -->
-              <label for="nombre">Nombre</label>
+              <input class="formcontact__input" type="text" name="nombre" id="nombre" placeholder="Nombres" required>
+              <label class="formcontact__grupo--label" for="nombre">Nombre</label>
+              <span class="input-message-error"></span>
             </div>
+
+
             <div class="formcontact__grupo">
-              <input class="formcontact__input" for="E-mail" type="email" name="email" id="email" required/><span class="barra" ></span> <!-- required -->
-              <label for="E-mail" ">E-mail</label>
+              <input class="formcontact__input" type="email" name="email" id="email" placeholder="Correo electrónico" required />
+              <label class="formcontact__grupo--label" for="E-mail">E-mail</label>
+              <span class="input-message-error"></span>
             </div>
-            <div class="formcontact__grupo">
-              <input class="formcontact__input" for="asunto" type="text" name="asunto" id="asunto" required/><span class="barra" ></span> <!-- required -->
-              <label for="asunto">Asunto</label>
+
+
+            <div class=" formcontact__grupo">
+              <input class="formcontact__input" type="text" name="asunto" id="asunto" placeholder="Mensaje" required />
+              <label class="formcontact__grupo--label" for="asunto">Asunto</label>
+              <span class="input-message-error"></span> 
             </div>
+
+
             <textarea class="formcontact__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
               placeholder="Mensaje"></textarea>
             <button type="submit" class="formcontact__button">
@@ -443,9 +649,10 @@
         <p>2022</p>
       </div>
     </section>
-  </div>
+  </main>
   <!-- Script del documento JavaScript -->
   <script src="validacion.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

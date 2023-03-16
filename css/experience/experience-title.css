@@ -13,8 +13,10 @@
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
-        font-size: 1.375rem;
-        line-height: 1.625rem;
+        font-size: 2rem;
+        line-height: 2.375rem;
         color: #464646;
+        text-align: center;
     }
 }
+
