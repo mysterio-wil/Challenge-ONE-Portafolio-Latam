@@ -8,7 +8,7 @@
         font: size 1rem;;
         line-height: 1.1875rem;
         color: #464646;
-        margin-left: 2rem;
+        /* margin-left: 2rem; */
     }
 
     .menu__list__item:hover a {
@@ -23,7 +23,7 @@
         font-size: 1rem;
         line-height: 1.1875rem;
         color: #464646;
-        margin-left: 2rem;
+        /* margin-left: 2rem; */
         /* margin-right: 1rem; */
     }
     

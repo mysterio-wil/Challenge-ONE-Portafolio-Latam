@@ -1,7 +1,7 @@
 .menu__list {
     font-family: 'Raleway', sans-serif;
     /*height: 396px;*/
-    transition: transform .5s;
+     transition: transform .5s;
     position: fixed;
     width: 100%;
     height: 90vh;
@@ -21,11 +21,18 @@
     -o-border-radius: 0 0 0 20px;
 }
 
-.menu__list--show {
+/* .menu__list--show {
     transform: unset;
     width: 100%;
-}
+} */
 
+.menu__list.open {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
 
 @media screen and (min-width:1024px) {
     .menu__list {

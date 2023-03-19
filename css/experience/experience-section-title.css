@@ -6,11 +6,21 @@
     line-height: 1.625rem;
     text-align: center;
     color: #464646;
-    margin-bottom: -3rem;
 }
 
-@media screen and (min-width:768px) {
-    
+@media screen and (min-width:1024px) {
+    .experience__section__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.375rem;
+        text-align: center;
+        color: #464646;
+        margin-bottom: 1rem;
+    }
+
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -22,6 +32,7 @@
         line-height: 2.375rem;
         text-align: center;
         color: #464646;
+        margin-bottom: -2rem;
     }
-    
+
 }

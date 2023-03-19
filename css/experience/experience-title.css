@@ -8,6 +8,7 @@
     margin-top: 1rem;
 }
 
+
 @media screen and (min-width: 1440px) {
     .experience__title {
         font-family: 'Raleway';
@@ -17,6 +18,7 @@
         line-height: 2.375rem;
         color: #464646;
         text-align: center;
+        margin-top: 0;
     }
 }
 

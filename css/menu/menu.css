@@ -28,12 +28,13 @@
 
 .menu__img {
     display: block;
-    width: 36px;
-    background-color: #464646;
+    /* width: 36px; */
+    color: #464646;
+    font-size: 36px;
 }
 
 .menu__img:hover {
-    background-color: #c31e3d;
+    color: #c31e3d;
 }
 
 .menu__link {
@@ -70,6 +71,11 @@
 @media screen and (min-width:768px) {
     .menu {
         padding: 1rem 0;
+    }
+
+    .menu__hamburguer {
+        padding: 0 2rem;
+        
     }
 
 }

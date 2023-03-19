@@ -29,7 +29,7 @@
         -moz-border-radius: 4px;
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
-        transform: translateY(-2%);
+        /* transform: translateY(-2%); */
 }
 
     .experience__img--imagen2 {
@@ -41,7 +41,7 @@
         -moz-border-radius: 4px;
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
-        transform: translateY(-2%);
+        /* transform: translateY(-2%); */
 }
 
     
