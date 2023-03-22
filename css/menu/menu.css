@@ -26,6 +26,10 @@
     cursor: pointer;
 }
 
+.menu__imagen {
+    width: 33px;
+}
+
 .menu__img {
     display: block;
     /* width: 36px; */
